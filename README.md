@@ -54,5 +54,12 @@ git tag -d v1.0
 ## 
 git checkout hash_del_commit
 # [Cómo Resolver Conflictos de Ramas en Git](https://platzi.com/home/clases/11059-gitgithub/71790-resolucion-de-conflictos-en-git/)
+## Traer cambios y mezclarlos
+git pull
+## Traer cambios sin mezclarlos
+git fetch
+
+Mi test para subir a github
+
 # [Clase 16 de 42 - Trabajo con repositorios remotos: push, pull y fetch](https://platzi.com/home/clases/11059-gitgithub/71797-trabajo-con-repositorios-remotos-push-pull-y-fetch/)
 
