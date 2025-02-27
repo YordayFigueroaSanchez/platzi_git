@@ -29,15 +29,21 @@ git branch -D nombre
 git reset hash_del_commit
 tiene los parametos --hard, --soft y --mixed
 ## revert
-git revert hash_del_commit
+`git revert hash_del_commit`
+```
 aparece la ventana para agregar info al comentario
 despues Ctrl + C, para despues : y escribir wq para escribir y salir
+```
+```
 git reset: Este comando devuelve a un commit anterior, eliminando los cambios en el historial como si nunca hubieran ocurrido.
 Permite deshacer cambios y mover el puntero HEAD a un commit específico. Hay tres modos principales:
 git reset --soft: Mueve HEAD al commit especificado, pero mantiene los cambios en el área de preparación.
 git reset --mixed: (Por defecto) Mueve HEAD y deshace los cambios en el área de preparación, pero mantiene los cambios en el directorio de trabajo.
 git reset --hard: Mueve HEAD y descarta todos los cambios, tanto en el área de preparación como en el directorio de trabajo.
+```
+```
 git revert: Crea un nuevo commit que deshace los cambios de un commit específico. Es útil para deshacer cambios de forma segura en repositorios compartidos.
+```
 # [Gestión de versiones: tag y checkout](https://platzi.com/home/clases/11059-gitgithub/71789-gestion-de-versiones-con-tag-y-checkout/)
 ## crear tag con mensaje
 git tag -a v1.0 -m "Mi primer tag"
