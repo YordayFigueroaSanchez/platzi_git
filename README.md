@@ -54,6 +54,10 @@ git tag -d v1.0
 ## 
 git checkout hash_del_commit
 # [Cómo Resolver Conflictos de Ramas en Git](https://platzi.com/home/clases/11059-gitgithub/71790-resolucion-de-conflictos-en-git/)
+## Subir los cambios
+git push -u origin main
+Cuando ya este creada la rama se pude lanzar 
+git push
 ## Traer cambios y mezclarlos
 git pull
 ## Traer cambios sin mezclarlos
