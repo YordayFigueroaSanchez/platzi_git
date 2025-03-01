@@ -82,4 +82,9 @@ ssh -T git@github.com
 git clone
 
 # [Clase 16 de 42 - Trabajo con repositorios remotos: push, pull y fetch](https://platzi.com/home/clases/11059-gitgithub/71797-trabajo-con-repositorios-remotos-push-pull-y-fetch/)
-
+git push -u origin main
+git pull
+## comprobar cambio antes de mezclarlos
+git fetch origin
+git log main..origin/main
+git merge origin/main
