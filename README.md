@@ -75,5 +75,7 @@ eval "$(ssh-agent -s)"
 ## agregar key
 ssh-add ~/.ssh/id_ed25519
 agregar la key .pub en git
+## autenticar con github.com
+ssh -T git@github.com
 # [Clase 16 de 42 - Trabajo con repositorios remotos: push, pull y fetch](https://platzi.com/home/clases/11059-gitgithub/71797-trabajo-con-repositorios-remotos-push-pull-y-fetch/)
 
