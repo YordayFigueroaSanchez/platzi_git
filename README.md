@@ -1,5 +1,5 @@
 #
-# [Configuraci�n Inicial de Git: init y config](https://platzi.com/home/clases/11059-gitgithub/71785-configuracion-de-git-y-git-init/)
+# [Configuracion Inicial de Git: init y config](https://platzi.com/home/clases/11059-gitgithub/71785-configuracion-de-git-y-git-init/)
 git --version
 git init
 git config --global init.defaultBranch main
@@ -11,12 +11,12 @@ git --list
 ## docs
 [git-cheat-sheet-education.pdf](git-cheat-sheet-education.pdf)
 
-# [Comandos B�sicos de Git: add, commit y log](https://platzi.com/home/clases/11059-gitgithub/71786-comandos-basicos-de-git-add-commit-log/)
+# [Comandos Basicos de Git: add, commit y log](https://platzi.com/home/clases/11059-gitgithub/71786-comandos-basicos-de-git-add-commit-log/)
 ## Para agregar un archivo al stage
 git add testing.txt
 ## Para regresar del stage al directorio
 git rm --cache testing.txt
-# [Ramas y Fusi�n de Cambios: branch, merge, switch y checkout](https://platzi.com/home/clases/11059-gitgithub/71787-ramas-y-fusion-de-cambios-branch-merge-checkout/)
+# [Ramas y Fusion de Cambios: branch, merge, switch y checkout](https://platzi.com/home/clases/11059-gitgithub/71787-ramas-y-fusion-de-cambios-branch-merge-checkout/)
 ## Crear una rama y pasar a ella
 git switch -c nombre_de_la_rama
 ### Para hacer un merge
@@ -36,13 +36,13 @@ despues Ctrl + C, para despues : y escribir wq para escribir y salir
 ```
 ```
 git reset: Este comando devuelve a un commit anterior, eliminando los cambios en el historial como si nunca hubieran ocurrido.
-Permite deshacer cambios y mover el puntero HEAD a un commit espec�fico. Hay tres modos principales:
-git reset --soft: Mueve HEAD al commit especificado, pero mantiene los cambios en el �rea de preparaci�n.
-git reset --mixed: (Por defecto) Mueve HEAD y deshace los cambios en el �rea de preparaci�n, pero mantiene los cambios en el directorio de trabajo.
-git reset --hard: Mueve HEAD y descarta todos los cambios, tanto en el �rea de preparaci�n como en el directorio de trabajo.
+Permite deshacer cambios y mover el puntero HEAD a un commit especifico. Hay tres modos principales:
+git reset --soft: Mueve HEAD al commit especificado, pero mantiene los cambios en el area de preparacion.
+git reset --mixed: (Por defecto) Mueve HEAD y deshace los cambios en el area de preparacion, pero mantiene los cambios en el directorio de trabajo.
+git reset --hard: Mueve HEAD y descarta todos los cambios, tanto en el area de preparacion como en el directorio de trabajo.
 ```
 ```
-git revert: Crea un nuevo commit que deshace los cambios de un commit espec�fico. Es �til para deshacer cambios de forma segura en repositorios compartidos.
+git revert: Crea un nuevo commit que deshace los cambios de un commit especifico. Es util para deshacer cambios de forma segura en repositorios compartidos.
 ```
 # [Gestion de versiones: tag y checkout](https://platzi.com/home/clases/11059-gitgithub/71789-gestion-de-versiones-con-tag-y-checkout/)
 ## crear tag con mensaje
