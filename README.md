@@ -88,3 +88,5 @@ git pull
 git fetch origin
 git log main..origin/main
 git merge origin/main
+
+# [Clase 16 de 42 - Gestión de Issues y Discussions en GitHub](https://platzi.com/home/clases/11059-gitgithub/71795-gestion-de-issues-y-discussions-en-github/)
